@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/weather.css">
+    <title>Review</title>
+
+</head>
+<body>
+    <h1>Results</h1>
+    <div class="center">
+    <center><table border="1"></center>
+
+            <tr>
+                <th>Temperature</th>
+                <th>Weather</th>
+                <th>Min_temp</th>
+                <th>Max_temp</th>
+                <th>Datetime</th>
+                <th>Icon</th>
+            </tr>
+            {% for review in reviews %}
+            
+            <tr>
+                <td> {{review['Temperature']}} </td>
+                <td> {{review['Weather']}} </td>
+                <td> {{review['Min_temp']}} </td>
+                <td> {{review['Max_temp']}} </td>
+                <td> {{review['Datetime']}} </td>
+                <td> {{review['Icon']}} </td>
+            </tr>
+            {% endfor %}        
+    </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: chocolate;
+}
+h1{
+    text-align: center;
+    font-family: Comic Sans Ms;
+}
+.class{
+    margin: auto;
+    padding:10px;
+    width: 100px;
+}
+#content {
+    width: 30em;
+    height: 40px;
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+#button {
+    border: none;
+    border-bottom: 2px solid rgb(189, 143, 232);
+    border-top: 2px solid rgb(189, 143, 232);
+    font-size: 25px;
+    padding: 0.4em 1em;
+    background-color: blue;
+    border-radius: 10px; 
+}
